@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&family=Racing+Sans+One&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+
+}
+.Meio-container {
+    margin: auto;
+}
+
+div{
+    width: 85%;
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0,0,0, .2);
+}
+
+header{
+    text-align: center;
+
+}
+
+header ul{
+    margin-top: 1.5em;
+
+}
+
+header li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'racing Sans one';
+    font-size:33px;
+    margin-right: 32px;
+}
+
+header li:last-child{margin-right: 0;}
+
+header a{
+    text-decoration: none;
+    color: #26E086;
+    padding: 118px;
+}
+main{
+    margin-top: 64px;
+
+}
+
+article{
+    width: 95%;
+}
+
+article img{
+    width: 52%;
+    float: right;
+    margin: 0 0 40px  32px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.37);
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 160%;
+    margin-bottom: 16px ;
+}
+
+h2{
+    font-size: 72px;
+    margin-bottom: 11.50px;
+    font-family: 'racing Sans one';
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+hr{
+    width: 85%;
+    margin: 64px auto;
+    border: 1.5px solid rgba(49, 230, 13, 0.938);
+
+}
+.esquerda{
+    float: left;
+    margin-left: 0;
+    margin-right:40px;
+}
+
+.proximos-jogos {
+    text-align: right;
+
+}
+
+.meunome{
+    text-align: center;
+    background-color:#26E086;
+    color: blue;
+    margin: auto;
+    padding: 10px;
+    font-family: 'racing Sans one';
+    font-size: 33px;
+    line-height: 130%;
+    letter-spacing: 3px;
+
+}
